@@ -76,10 +76,102 @@
 // setTimeout(showName, 0);
 // console.log('Коля');
 
-if (2 > 1) {
-    function showMessage() {
-        console.log("Сообщение");
-    }
-}
-showMessage();
+// let fnMess;
 
+// if (2 > 1) {
+//     function showMessage() {
+//         console.log("Сообщение");
+//     }
+// }
+// showMessage();
+
+
+// const burger = 3;
+// const kartoshka = 3;
+// const jucy = 0;
+// const nuggets = 2;
+
+// if (burger === 3 && jucy === 2 || kartoshka === 3 && nuggets) {
+//     console.log('Похаваем');
+// } else {
+//     console.log('Не похаваем, уходим');
+// }
+
+
+// console.log(burger === 3 && jucy === 2 || kartoshka === 3 && nuggets);
+
+
+// let johnReport, alexReport, samReport, mariaRerort = 'done';
+// console.log(johnReport || alexReport || samReport || mariaRerort);
+
+
+// console.log(NaN || 2 || undefined); // 2 
+// console.log(NaN && 2 && undefined); // NaN 
+// console.log(1 && 2 && 3); // 3 
+// console.log(!1 && 2 || !3); // fasle
+// console.log(25 || null && !3); // 25 
+// console.log(NaN || null || !3 || undefined || 5); // 5 
+// console.log(NaN || null && !3 && undefined || 5); // 5 
+// console.log(5 === 5 && 3 > 1 || 5); // true 
+
+
+
+// function getInfo (name, age) {
+//     let result = {};
+
+//     for (let i in result) {
+//         this.name = name;
+
+//     }
+// }
+
+// function personInfo(name, age) {
+//     return {
+//         name,
+//         age
+//     }
+// };
+
+// console.log(personInfo('Alex', 30));
+
+
+// const usersMap = {
+//     persons: [],
+//     pushPerson(name, age) {
+//         if (this.persons === name) {
+//             this.persons.push(name)
+//         } else if (this.age === age) {
+//             return this.age += age
+//         }
+        
+//         return {
+//             name, age
+//         }
+//     }
+// }
+
+
+// console.log(usersMap.pushPerson('Sasha', 25));
+// console.log(usersMap.persons);
+
+
+// let num = 50; 
+
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55)
+
+// for (let i = 2; i <= 10; i+=2) {
+//     if (i === 8) {
+//         // break;
+//         continue
+//     }
+//     console.log(i);
+// }
